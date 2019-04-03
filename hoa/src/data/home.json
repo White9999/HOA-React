@@ -1,0 +1,46 @@
+{
+    "_current_user": {
+        "id": "1234",
+        "email": "test@example.com",
+        "display_name": "Laurie01",
+        "first_name": "Laurie",
+        "last_name": "Williams",
+        "is_admin": true
+    },
+    "banner_img": [{
+        "id": 1,
+        "img_url": "/community/img/doorway.jpg"
+    }],
+    "provenance": [{
+        "id": 1,
+        "provenance_url": "/community/img/tellus.png",
+        "alt": "Powered-by-Tellus"
+    }],
+    "_metadata": {
+        "root_url": "http://127.0.0.1:8080",
+        "page_path": "/home",
+        "assets_path": "",
+        "site_name": "De Anza Oaks",
+        "environment": "dev"
+    },
+    "community_news": [{
+        "id": 1,
+        "title": "WHAT'S NEW AT DE ANZA OAKS"
+    }],
+    "shortcuts": [{
+            "title": "New Announcements",
+            "num": "2",
+            "link": "./news/announcements"
+        },
+        {
+            "title": "Upcoming Events",
+            "num": "9",
+            "link": "./activities/calendar"
+        },
+        {
+            "title": "Recently Added Events",
+            "num": "7",
+            "link": "./activities/calendar/list"
+        }
+    ]
+}
