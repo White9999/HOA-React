@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "antd": "^3.16.0",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "scss": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "mock.js": "^0.2.0"
+  }
 }
