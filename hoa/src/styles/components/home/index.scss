@@ -38,6 +38,7 @@
     font-weight: 600;
     background: linear-gradient(to right, rgb(235, 160, 91), blue);
     font-size: 14px;
+    border-radius: 30px;
 }
 
 // content1
@@ -90,7 +91,7 @@
     list-style: none;
     margin-top: 20px;
     font-size: 18px;
-    margin-left: -20px;
+    margin-left: 20px;
 }
 
 .content_left_title ul li a {
@@ -106,7 +107,7 @@
 
 .content_right a {
     text-align: center;
-    width: 20%;
+    width: 21%;
     padding-top: 70px;
     font-weight: 600;
     color: rgb(24, 144, 255);

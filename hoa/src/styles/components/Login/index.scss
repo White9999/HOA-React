@@ -1,0 +1,39 @@
+.Login {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 700px;
+}
+
+.Login_left {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 3px #1890ff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 200px;
+}
+
+.Login h2 {
+    margin: 40px;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+
+.Login p {
+    margin: 40px;
+}
+
+.Login input {
+    width: 87%;
+}
+
+.button_login {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget {
+    margin-right: 15px;
+}

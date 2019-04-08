@@ -9,6 +9,6 @@ Mock.mock(/\/todoList.mock/,{
             'status':1
         }]
     },
-    'message':'操作成功',
+    'message':'成功',
     'systemDate':newDate().getTime()
 })

@@ -1,0 +1,57 @@
+.amenities {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.amenities h2 {
+    text-align: center;
+    height: 56px;
+    line-height: 46px;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgba(57, 61, 68, 1);
+}
+
+.amenities_text {
+    padding: 40px 140px 0;
+    box-sizing: border-box;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgba(57, 61, 68, 1);
+    line-height: 34px;
+}
+
+.amenities_title {
+    border-bottom: 2px solid #333333;
+    box-sizing: border-box;
+    color: rgba(57, 61, 68, 1);
+    font-size: 24px;
+    font-weight: bold;
+    height: 44px;
+    line-height: 24px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+    margin-top: 80px;
+    padding: 0 0 25px;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.amenities_image {
+    padding: 0 140px;
+    width: 100%;
+}
+
+.amenities_image img {
+    width: 100%;
+}
+
+.amenities_content_text {
+    padding: 40px 140px 0;
+    box-sizing: border-box;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgba(57, 61, 68, 1);
+    line-height: 34px;
+}
