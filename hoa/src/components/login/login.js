@@ -20,13 +20,13 @@ export default class Login extends React.Component {
                 <div className="Login_left">
                     <h2>Login</h2>
                     <p>
-                        <span>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span className="Login_span">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                         <Input maxLength={30} type="text" onChange={(e) => {
                             this.setUserInfo(e, "user_name")
                         }} />
                     </p>
                     <p>
-                        <span>Password: </span>
+                        <span className="Login_span">Password: </span>
                         <Input maxLength={30} type="password" onChange={(e) => {
                             this.setUserInfo(e, "user_pwd")
                         }} />
