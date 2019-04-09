@@ -1,15 +1,47 @@
 import React from 'react';
 import '@/styles/components/home/city-resources/city-resources.scss';
-import cityLogo from '@/img/city resources.jpeg'
+// import cityLogo from '@/img/city resources.jpeg'
+import JSON from '@/mock/city-resources.js'
 
 class News extends React.Component {
+
+    renderMenuItem(JSON) {
+        return JSON.map((item, key) => {
+            return (
+                <div key={item.id}>
+                    <h2>{item.title}</h2>
+                    <div className="cityLogo"><img src={item.imgUrl} alt="cityLogo" /></div>
+                    <p className="city_resources">{item.content}</p>
+                </div>
+            )
+        })
+    }
+
+    renderMenuItem2(JSON) {
+        JSON.map((item, key) => {
+          item.children.map((item, key) => {
+                return (
+                    console.log(item.a)
+                //    <div key={item.id}>
+                //         <p className="help_p">{item.title}</p>
+                //         <ul className="addresses">
+                //             <li>{item.a}</li>
+                //             <li>{item.b}</li>
+                //             <li>{item.c}</li>
+                //             <li>{item.d}</li>
+                //         </ul>
+                //     </div>
+                )
+            })
+        })
+    }
+
     render() {
         return (
             <div className="CityResources">
-                <h2>Cupertino City Resources</h2>
-                <div className="cityLogo"><img src={cityLogo} alt="cityLogo" /></div>
+                {this.renderMenuItem(JSON)}
                 <div className="content-1">
-                    <p className="city_resources">De Anza Oaks is located in the city of Cupertino in Santa fClara County. This city is home to Apple Headquarters, De Anza College, and a wide variety of businesses and great public schools. Cupertino has a population of 64,000 people within 13 square miles. It is 42 miles south of San Francisco and is on the western side of Silicon Valley, next to the Santa Cruz Mountains.</p>
+                    {this.renderMenuItem2(JSON)}
                     <p className="help_p">Helpful addresses:</p>
                     <ul className="addresses">
                         <li>Cupertino city hall: 10300 Torre Avenue</li>

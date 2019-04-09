@@ -1,17 +1,23 @@
 .Login {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 20px;
-    height: 700px;
+    min-height: 800px;
+    position: relative;
 }
 
 .Login_left {
     width: 50%;
-    margin: 0 auto;
     box-shadow: 0 0 3px #1890ff;
     border-radius: 10px;
     padding: 5px;
-    margin-top: 200px;
+    height: 337px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-image: url("../../../img/LoginLogo.jpg")
 }
 
 .Login h2 {
@@ -36,4 +42,9 @@
 
 .forget {
     margin-right: 15px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
 }
